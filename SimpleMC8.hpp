@@ -11,7 +11,7 @@
 #include "Vanilla3.h"
 #include "Parameters.h"
 #include "Random.hpp"
-#include "MCStatistics.h"
+#include "MCStatistics.hpp"
 
 void SimpleMonteCarlo6 (const VanillaOption& TheOption,
                        double Spot,
