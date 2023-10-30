@@ -1,39 +1,41 @@
-/* requires Eigen */
-
+//
+//  main.cpp
+//  joshi_chp5
+//
+//  Created by Matthew liew on 17.10.23.
+//
+#include "SimpleMC7.hpp"
 #include <iostream>
 using namespace std;
-#include "SimpleMC8.hpp"
-#include "ParkMiller.h"
 #include "Vanilla3.h"
-#include "MCStatistics.h"
-#include "AntiThetic.hpp"
-#include "ConvergenceTable.h"
+#include "MCStatistics.hpp"
 
-int main () {
+
+int main() {
     double Expiry;
     double Strike;
     double Spot;
-    double r;
     double Vol;
+    double r;
     unsigned long NumberOfPaths;
     
     cout << "\nEnter expiry\n";
-    cin >> Expiry;
-
-    cout << "\nStrike\n";
-    cin >> Strike;
-
-    cout << "\nEnter spot\n";
-    cin >> Spot;
-
-    cout << "\nEnter vol\n";
-    cin >> Vol;
-
-    cout << "\nr\n";
-    cin >> r;
-
-    cout << "\nNumber of paths\n";
-    cin >> NumberOfPaths;
+     cin >> Expiry;
+     
+     cout << "\nEnter strike\n";
+     cin >> Strike;
+     
+     cout << "\nEnter spot\n";
+     cin >> Spot;
+     
+     cout << "\nEnter vol\n";
+     cin >> Vol;
+     
+     cout << "\nr\n";
+     cin >> r;
+     
+     cout << "\nNumber of paths\n";
+     cin >> NumberOfPaths;
     
     PayOffCall thePayOff(Strike);
     
@@ -44,33 +46,28 @@ int main () {
     
     StatisticsMean gatherer;
     
-    ConvergenceTable gathererTwo(gatherer);
-    
-    RandomParkMiller generator(1);
-    
-    AntiThetic GenTwo(generator);
-    
-    SimpleMonteCarlo6(theOption,
+    SimpleMonteCarlo5(theOption,
                       Spot,
                       VolParam,
                       rParam,
                       NumberOfPaths,
-                      gathererTwo,
-                      GenTwo);
+                      gatherer
+                      );
     
-    vector<vector<double> > results = gathererTwo.GetResultsSoFar();
+    vector<vector<double>> results = gatherer.GetResultsSoFar();
     
     cout << "\nFor the call price the results are \n";
-    
     for (unsigned long i=0; i < results.size(); i++) {
-        for (unsigned long j=0; j < results[i].size(); j++)
+        for (unsigned long j=0; j < results[i].size(); j++) {
             cout << results[i][j] << " ";
+        
         cout << "\n";
+        }
     }
     
     double tmp;
     cin >> tmp;
     
     return 0;
-
+    
 }
