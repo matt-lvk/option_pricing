@@ -7,9 +7,7 @@
 
 #include "SimpleMC8.hpp"
 #include <cmath>
-#include <Eigen/Dense>
-
-typedef Eigen::ArrayXXf MJArray;
+#include "Arrays.h"
 
 void SimpleMonteCarlo6 (const VanillaOption& TheOption,
                         double Spot,
