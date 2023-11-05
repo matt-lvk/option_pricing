@@ -20,30 +20,30 @@ int main () {
     double d;
     double Price;
 
-    cout << "\nEnter expiry\n";
+    cout << "Enter expiry";
     cin >> Expiry;
 
-    cout << "\nStrike\n";
+    cout << "Strike";
     cin >> Strike;
 
-    cout << "\nEnter spot\n";
+    cout << "Enter spot";
     cin >> Spot;
 
-    cout << "\nEnter d\n";
+    cout << "Enter dividen";
     cin >> d;
 
-    cout << "\nr\n";
+    cout << "risk free interest, r";
     cin >> r;
 
-    cout << "\nPrice of Call\n";
+    cout << "Price of Call";
     cin >> Price;
 
     double start, tolerance;
 
-    cout << "\nInitial guess\n";
+    cout << "Initial guess";
     cin >> start;
 
-    cout << "\ntolerance\n";
+    cout << "tolerance";
     cin >> tolerance;
 
     BSCallNewton theCall(r, d, Expiry, Spot, Strike);
@@ -53,8 +53,8 @@ int main () {
 
     double nextPrice = BlackScholesCall(Spot, Strike, r, d, vol, Expiry);
 
-    cout << "\nImplied vol is " << vol << "\n";
-    cout << "\nPrice according to Black Scholes is " << nextPrice << "\n";
+    cout << "Implied vol is " << vol << endl;
+    cout << "Price according to Black Scholes is " << nextPrice << endl;
 
     return 0;
 
