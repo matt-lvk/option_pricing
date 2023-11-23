@@ -1,0 +1,35 @@
+﻿  main.cpp
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h(1,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h(2,1): fatal  error C1070: mismatched #if/#endif pair in file 'C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h'
+  MCStatistics.cpp
+  Parameters.cpp
+C:\Users\mlie\Documents\GitHub\option_pricing\Parameters.cpp(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+C:\Users\mlie\Documents\GitHub\option_pricing\Parameters.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\Parameters.h(1,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\Parameters.h(2,1): fatal  error C1070: mismatched #if/#endif pair in file 'C:\Users\mlie\Documents\GitHub\option_pricing\Parameters.h'
+  PayOff3.cpp
+C:\Users\mlie\Documents\GitHub\option_pricing\PayOff3.cpp(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+C:\Users\mlie\Documents\GitHub\option_pricing\PayOff3.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\PayOff3.h(1,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\PayOff3.h(2,1): fatal  error C1070: mismatched #if/#endif pair in file 'C:\Users\mlie\Documents\GitHub\option_pricing\PayOff3.h'
+  PayOffBridge.cpp
+C:\Users\mlie\Documents\GitHub\option_pricing\PayOffBridge.cpp(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+C:\Users\mlie\Documents\GitHub\option_pricing\PayOffBridge.cpp(1,11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\PayOffBridge.h(1,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\PayOffBridge.h(2,1): fatal  error C1070: mismatched #if/#endif pair in file 'C:\Users\mlie\Documents\GitHub\option_pricing\PayOffBridge.h'
+  Random1.cpp
+C:\Users\mlie\Documents\GitHub\option_pricing\Random1.cpp(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+C:\Users\mlie\Documents\GitHub\option_pricing\Random1.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\Random1.h(1,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\Random1.h(2,1): fatal  error C1070: mismatched #if/#endif pair in file 'C:\Users\mlie\Documents\GitHub\option_pricing\Random1.h'
+  SimpleMC7.cpp
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h(1,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h(2,1): fatal  error C1070: mismatched #if/#endif pair in file 'C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h'
+  Vanilla3.cpp
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.cpp(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h(1,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h(2,1): fatal  error C1070: mismatched #if/#endif pair in file 'C:\Users\mlie\Documents\GitHub\option_pricing\Vanilla3.h'
+  Generating Code...
